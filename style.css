@@ -12,10 +12,18 @@ h1, h2, h3 {
     line-height: 1.2
 }
 
+figure {
+    margin: 1.2rem 0;
+}
+
 blockquote {
     margin-left: 0.1rem;
     padding-left: 1.8rem;
     border-left: 0.1rem solid #888;
+}
+
+cite {
+    margin-left: 0.8rem;
 }
 
 a:visited {
