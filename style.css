@@ -26,6 +26,12 @@ cite {
     margin-left: 0.8rem;
 }
 
+address {
+    font-size: 0.95rem;
+    margin-left: 0.8rem;
+    display: inline-block;
+}
+
 a:visited {
     color: LinkText;
 }
@@ -33,6 +39,8 @@ a:visited {
 ul {
     padding-left: 0.5rem;
     list-style-type: '-';
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
 ul li {
